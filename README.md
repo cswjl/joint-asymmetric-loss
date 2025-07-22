@@ -4,7 +4,7 @@ This repository is the official pytorch code of the **Joint Asymmetric Loss (JAL
 
 
 ## How to use
-<font color=blue>**We use NCEandAMSE as JAL-CE and NFLandAMSE as JAL-FL in the code.**</font>
+🔵 **We use NCEandAMSE as JAL-CE and NFLandAMSE as JAL-FL in the code.**
 
 **Benchmark Datasets:** The running file is `main.py`.
 * --dataset: cifar10 | cifar100.
