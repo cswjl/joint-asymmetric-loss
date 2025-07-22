@@ -6,16 +6,16 @@ This repository is the official pytorch code of the **Joint Asymmetric Loss (JAL
 ## How to use
 🔵 **We use NCEandAMSE as JAL-CE and NFLandAMSE as JAL-FL in the code.**
 
-**Benchmark Datasets:** The running file is `main.py`.
-* --dataset: cifar10 | cifar100.
-* --loss: NCEandAMSE, NFLandAMSE, CE, GCE, etc.
-* --noise_type: symmetric | asymmetric | dependent (instance-dependent
+**Benchmark Datasets:** The running file is `main.py`
+* dataset: cifar10 | cifar100.
+* loss: NCEandAMSE, NFLandAMSE, CE, GCE, etc.
+* noise_type: symmetric | asymmetric | dependent (instance-dependent
 noise) | human (cifar-n).
 
 
-**Real-World Datasets:** The running file is `main_real_world.py`.
-* --dataset: webvision | clothing1m.
-* --loss: NCEandAMSE, NFLandAMSE, CE, GCE, etc.
+**Real-World Datasets:** The running file is `main_real_world.py`
+* dataset: webvision | clothing1m.
+* loss: NCEandAMSE, NFLandAMSE, CE, GCE, etc.
 
 ## Examples
 
