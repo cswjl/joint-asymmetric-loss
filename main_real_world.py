@@ -17,7 +17,7 @@ parser = argparse.ArgumentParser(description='Robust Loss Functions for Learning
 parser.add_argument('--dataset', type=str, default="clothing1m", choices=['webvision', 'clothing1m'], help='dataset name')
 parser.add_argument('--root', type=str, default="../data", help='dataset root, change root yourself')
 # initialization settings
-parser.add_argument('--gpus', type=str, default='0', help='gpu id, can multiple-gpu, such as "0, 1, 2, 3"')
+parser.add_argument('--gpus', type=str, default='0, 1, 2, 3', help='gpu id, can multiple-gpu, change yourself')
 parser.add_argument('--grad_bound', type=bool, default=True, help='the gradient norm bound, following previous work')
 # parameter settings 
 parser.add_argument('--loss', type=str, default='NCEandAMSE', help='the loss functions name')
